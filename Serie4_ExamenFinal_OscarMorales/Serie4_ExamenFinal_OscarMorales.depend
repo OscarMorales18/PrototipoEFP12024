@@ -1,18 +1,23 @@
 # depslib dependency file v1.0
-1716997730 source:c:\users\oskar\onedrive\escritorio\tercer semestre\programación i\programas exportados de github\prototipoefp12024\serie4_examenfinal_oscarmorales\main.cpp
+1717000001 source:c:\users\oskar\onedrive\escritorio\tercer semestre\programación i\programas exportados de github\prototipoefp12024\serie4_examenfinal_oscarmorales\main.cpp
 	<iostream>
 	"menu.h"
+	"Login.h"
 
 1716997730 c:\users\oskar\onedrive\escritorio\tercer semestre\programación i\programas exportados de github\prototipoefp12024\serie4_examenfinal_oscarmorales\include\menu.h
 
-1716998574 source:c:\users\oskar\onedrive\escritorio\tercer semestre\programación i\programas exportados de github\prototipoefp12024\serie4_examenfinal_oscarmorales\src\menu.cpp
+1716999958 source:c:\users\oskar\onedrive\escritorio\tercer semestre\programación i\programas exportados de github\prototipoefp12024\serie4_examenfinal_oscarmorales\src\menu.cpp
 	"menu.h"
 	"windows.h"
 	"empleados.h"
+	"bitacora.h"
+	"usuarios.h"
 	<iostream>
 
-1716998549 source:c:\users\oskar\onedrive\escritorio\tercer semestre\programación i\programas exportados de github\prototipoefp12024\serie4_examenfinal_oscarmorales\src\empleados.cpp
+1716999942 source:c:\users\oskar\onedrive\escritorio\tercer semestre\programación i\programas exportados de github\prototipoefp12024\serie4_examenfinal_oscarmorales\src\empleados.cpp
 	"empleados.h"
+	"login.h"
+	"bitacora.h"
 	<iostream>
 	<fstream>
 	<stdlib.h>
@@ -21,6 +26,46 @@
 	<iomanip>
 	<string>
 
-1716998274 c:\users\oskar\onedrive\escritorio\tercer semestre\programación i\programas exportados de github\prototipoefp12024\serie4_examenfinal_oscarmorales\include\empleados.h
+1716999476 c:\users\oskar\onedrive\escritorio\tercer semestre\programación i\programas exportados de github\prototipoefp12024\serie4_examenfinal_oscarmorales\include\empleados.h
 	<iostream>
+
+1716999639 source:c:\users\oskar\onedrive\escritorio\tercer semestre\programación i\programas exportados de github\prototipoefp12024\serie4_examenfinal_oscarmorales\src\bitacora.cpp
+	<cstring>
+	"Bitacora.h"
+	"Login.h"
+
+1716999639 c:\users\oskar\onedrive\escritorio\tercer semestre\programación i\programas exportados de github\prototipoefp12024\serie4_examenfinal_oscarmorales\include\bitacora.h
+	<iostream>
+	<fstream>
+	<string>
+	<ctime>
+	<cstring>
+	"usuarios.h"
+
+1716999688 c:\users\oskar\onedrive\escritorio\tercer semestre\programación i\programas exportados de github\prototipoefp12024\serie4_examenfinal_oscarmorales\include\usuarios.h
+	<iostream>
+
+1716999737 c:\users\oskar\onedrive\escritorio\tercer semestre\programación i\programas exportados de github\prototipoefp12024\serie4_examenfinal_oscarmorales\include\login.h
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<ctime>
+	<cstring>
+	"Bitacora.h"
+	"usuarios.h"
+
+1716999737 source:c:\users\oskar\onedrive\escritorio\tercer semestre\programación i\programas exportados de github\prototipoefp12024\serie4_examenfinal_oscarmorales\src\login.cpp
+	"Login.h"
+	"Bitacora.h"
+	"conio.h"
+
+1716999698 source:c:\users\oskar\onedrive\escritorio\tercer semestre\programación i\programas exportados de github\prototipoefp12024\serie4_examenfinal_oscarmorales\src\usuarios.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	"usuarios.h"
+	"Login.h"
+	"Bitacora.h"
 

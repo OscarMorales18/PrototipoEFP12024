@@ -1,11 +1,20 @@
 #include <iostream>
 #include "menu.h"
+#include "Login.h"
 
 using namespace std;
 
 int main()
 {
-    menu general;
-    general.MenuGeneral();
-    return 0;
+    Login login;
+
+    if (login.validacion()) {
+        menu general;
+        general.MenuGeneral();
+    } else
+    {
+    cout<<"       -> Intentelo Nuevamente...";
+    }
+
+    system("cls");
 }

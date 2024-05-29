@@ -1,4 +1,6 @@
 #include "empleados.h"
+#include "login.h"
+#include "bitacora.h"
 #include<iostream>
 #include<fstream>
 #include<stdlib.h>
@@ -91,6 +93,10 @@ void empleados::menu()
     int opc;
     char continuar;
 
+    string usuarioActual = Login::getUsuarioActual();
+    Bitacora bitacora;
+    bitacora.ingresoBitacora(usuarioActual, "2003", "EMPLE");
+
     do
     {
         cout << "\n";
@@ -165,6 +171,11 @@ void empleados::menu()
 
 void empleados::insertar()
 {
+
+    string usuarioActual = Login::getUsuarioActual();
+    Bitacora bitacora;
+    bitacora.ingresoBitacora(usuarioActual, "2004", "EMPLEI");
+
     cout << "\n";
     cout << "\t+------------------------------------------+" << endl;
     cout << "\t|\t\t            \t\t   |" << endl;
@@ -214,6 +225,11 @@ void empleados::insertar()
 
 void empleados::desplegar()
 {
+
+    string usuarioActual = Login::getUsuarioActual();
+    Bitacora bitacora;
+    bitacora.ingresoBitacora(usuarioActual, "2005", "EMPLED");
+
     cout << "\n";
     cout << "\t+------------------------------------------+" << endl;
     cout << "\t|\t\t            \t\t   |" << endl;
@@ -252,6 +268,10 @@ void empleados::desplegar()
 
 void empleados::modificar()
 {
+    string usuarioActual = Login::getUsuarioActual();
+    Bitacora bitacora;
+    bitacora.ingresoBitacora(usuarioActual, "2006", "EMPLEM");
+
     cout << "\n";
     cout << "\t+------------------------------------------+" << endl;
     cout << "\t|\t\t            \t\t   |" << endl;
@@ -323,6 +343,10 @@ void empleados::modificar()
 
 void empleados::borrar()
 {
+    string usuarioActual = Login::getUsuarioActual();
+    Bitacora bitacora;
+    bitacora.ingresoBitacora(usuarioActual, "2007", "EMPLEB");
+
     cout << "\n";
     cout << "\t+------------------------------------------+" << endl;
     cout << "\t|\t\t            \t\t   |" << endl;
