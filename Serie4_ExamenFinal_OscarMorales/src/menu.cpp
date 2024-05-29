@@ -178,6 +178,43 @@ void menu::Informes()
 
 void menu::Seguridad()
 {
-    cout << "Seguridad" << endl;
-    system("pause");
+    system("cls");
+    int opc;
+
+    do
+    {
+        system("cls");
+        cout << "\n";
+        cout << "\t+------------------------------------------+" << endl;
+        cout << "\t|\t\t            \t\t   |" << endl;
+        cout << "\t|\t     Menu de Seguridad\t\t   |" << endl;;
+        cout << "\t|\t\t            \t\t   |" << endl;
+        cout << "\t+------------------------------------------+" << endl;
+        cout << "\t|\t\t            \t\t   |" << endl;
+        cout << "\t|\t\t1) Bitacora \t\t   |" << endl;
+        cout << "\t|\t\t            \t\t   |" << endl;
+        cout << "\t|\t    2) Regresar al menu\t\t   |" << endl;
+        cout << "\t|\t\t            \t\t   |" << endl;
+        cout << "\t+------------------------------------------+" << endl;
+        cout << "\n" << endl;
+        cout << "\t\tIngrese el numero de opcion: ";
+        cin >> opc;
+
+        switch(opc)
+        {
+        case 1:
+            {
+                Bitacora bitacora;
+                bitacora.mostrarBitacora();
+                break;
+            }
+        case 2:
+            MenuGeneral();
+        default:
+            cout << "\n\t Opcion invalida...Por favor prueba otra vez..";
+            cin.ignore();
+            cin.get();
+            system("cls");
+        }
+    } while (opc!=2);
 }
