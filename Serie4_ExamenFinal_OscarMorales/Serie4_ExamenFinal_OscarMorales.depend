@@ -1,7 +1,26 @@
 # depslib dependency file v1.0
-1716996789 source:c:\users\oskar\onedrive\escritorio\tercer semestre\programación i\programas exportados de github\prototipoefp12024\serie4_examenfinal_oscarmorales\main.cpp
+1716997730 source:c:\users\oskar\onedrive\escritorio\tercer semestre\programación i\programas exportados de github\prototipoefp12024\serie4_examenfinal_oscarmorales\main.cpp
 	<iostream>
 	"menu.h"
 
-1716996977 c:\users\oskar\onedrive\escritorio\tercer semestre\programación i\programas exportados de github\prototipoefp12024\serie4_examenfinal_oscarmorales\include\menu.h
+1716997730 c:\users\oskar\onedrive\escritorio\tercer semestre\programación i\programas exportados de github\prototipoefp12024\serie4_examenfinal_oscarmorales\include\menu.h
+
+1716998574 source:c:\users\oskar\onedrive\escritorio\tercer semestre\programación i\programas exportados de github\prototipoefp12024\serie4_examenfinal_oscarmorales\src\menu.cpp
+	"menu.h"
+	"windows.h"
+	"empleados.h"
+	<iostream>
+
+1716998549 source:c:\users\oskar\onedrive\escritorio\tercer semestre\programación i\programas exportados de github\prototipoefp12024\serie4_examenfinal_oscarmorales\src\empleados.cpp
+	"empleados.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+
+1716998274 c:\users\oskar\onedrive\escritorio\tercer semestre\programación i\programas exportados de github\prototipoefp12024\serie4_examenfinal_oscarmorales\include\empleados.h
+	<iostream>
 

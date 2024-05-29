@@ -1,5 +1,6 @@
 #include "menu.h"
 #include "windows.h"
+#include "empleados.h"
 #include <iostream>
 
 using namespace std;
@@ -71,8 +72,49 @@ void menu::MenuGeneral()
 
 void menu::Catalogos()
 {
-    cout << "Catalogos " << endl;
-    system("pause");
+    system("cls");
+    int opc;
+
+    do
+    {
+        cout << "\n";
+        cout << "\t+------------------------------------------+" << endl;
+        cout << "\t|\t\t            \t\t   |" << endl;
+        cout << "\t|\t     Menu de Catalogos\t\t   |" << endl;
+        cout << "\t|\t\t            \t\t   |" << endl;
+        cout << "\t+------------------------------------------+" << endl;
+        cout << "\t|\t\t            \t\t   |" << endl;
+        cout << "\t|\t\t1) Empleados\t\t   |" << endl;
+        cout << "\t|\t\t            \t\t   |" << endl;
+        cout << "\t|\t    2) Regresar al Menu\t\t   |" << endl;
+        cout << "\t|\t\t            \t\t   |" << endl;
+        cout << "\t|\t    3) Salir del Programa\t   |" << endl;
+        cout << "\t|\t\t            \t\t   |" << endl;
+        cout << "\t+------------------------------------------+" << endl;
+        cout << "\n" << endl;
+        cout << "\t\tIngrese el numero de opcion: ";
+        cin >> opc;
+
+        switch(opc)
+        {
+        case 1:
+        {
+            empleados emplea;
+            emplea.menu();
+        }
+            break;
+        case 2:
+            MenuGeneral();
+        case 3:
+            exit(0);
+            break;
+        default:
+            cout << "\n\t Opcion invalida...Por favor prueba otra vez..";
+            cin.ignore();
+            cin.get();
+            system("cls");
+        }
+    } while (opc!=3);
 }
 
 void menu::Informes()
