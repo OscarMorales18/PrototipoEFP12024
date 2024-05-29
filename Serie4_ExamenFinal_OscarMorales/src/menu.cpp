@@ -1,3 +1,6 @@
+
+//  Creado por Oscar Emilio Morales Lemus 9959-23-3070
+
 #include "menu.h"
 #include "windows.h"
 #include "empleados.h"
