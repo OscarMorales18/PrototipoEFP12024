@@ -1,3 +1,6 @@
+
+//  Creado por Oscar Emilio Morales Lemus 9959-23-3070
+
 #include <cstring>
 #include "Bitacora.h"
 #include "Login.h"
